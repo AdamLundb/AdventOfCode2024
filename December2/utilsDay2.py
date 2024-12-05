@@ -1,6 +1,5 @@
 def check_range_of_numbers(first_number, second_number):
     if(abs(first_number - second_number) >= 1 and abs(first_number - second_number) <= 3):
-        #print(f"First number : {first_number} Second number : {second_number} abs = {abs(first_number - second_number)}")
         return True
     return False
 
